@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Assets/Paper_asset_bodybackground.webp');
+}
+@keyframes slidein {
+    from {
+        transform: translateX(10000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.animation-slidein {
+    animation: slidein 4s ease;
+}
+.get-exe4 {
+    width: 200px;
+    height: 47px;
+    border: transparent;
+    border-radius: 87px;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+}
